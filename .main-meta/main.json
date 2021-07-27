@@ -1,0 +1,55 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f16q41-cnano-data-streamer-driver-mplab-mcc",
+        "version": " ",
+        "displayName": "",
+        "projectName": "pic18f16q41-cnano-data-streamer-driver-mplab-mcc",
+        "shortDescription": "Data Streamer Driver use case to graph variables in the Data Visualizer This use case demonstrates the use of a sendflag which controls when a Data Streamer frame update should be sent to the Data Visualizer",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=5.50.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.30.0"
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F16Q41",
+                "versionRange": "*"
+            }
+        },
+        "author": "Glen Nilsen",
+        "subcategories": [],
+        "peripherals": [],
+        "keywords": [],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
