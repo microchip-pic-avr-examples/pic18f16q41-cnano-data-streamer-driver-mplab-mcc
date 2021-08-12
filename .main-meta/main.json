@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f16q41-cnano-data-streamer-driver-mplab-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "PIC18F16Q41 Data Streamer Driver Use-case example with Sendflag",
         "projectName": "pic18f16q41-cnano-data-streamer-driver-mplab-mcc",
-        "shortDescription": "Data Streamer Driver use case to graph variables in the Data Visualizer This use case demonstrates the use of a sendflag which controls when a Data Streamer frame update should be sent to the Data Visualizer",
+        "shortDescription": "MCC Data Streamer Driver use case to graph variables in the Data Visualizer using the PIC18F16Q41 Curiosity Nano. This use case demonstrates the use of a sendflag which controls when a Data Streamer frame update should be sent to the MPLAB Data Visualizer",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.50.0"
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.11.185"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^4.3.3"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,9 +37,29 @@
             }
         },
         "author": "Glen Nilsen",
-        "subcategories": [],
-        "peripherals": [],
-        "keywords": [],
+        "subcategories": [
+            [
+                "Peripherals",
+                "UART"
+            ],
+            [
+                "Peripherals",
+                "TMR"
+            ]
+        ],
+        "peripherals": [
+            "UART",
+            "TMR"
+        ],
+        "keywords":  [
+            "Serial Communication",
+            "Data Visualizer",
+            "MPLAB Data Visualizer",
+            "UART",
+            "Getting Started",
+            "Melody",
+            "MCC Melody"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
